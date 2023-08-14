@@ -16,7 +16,7 @@ ng generate pipe safe
 ## Ajout d'un fichier JavaScript externe à l'application
 
 Pour ajouter un fichier JavaScript externe à l'application, il faut spécifier le chemin du fichier externe dans le fichier **angular.json**, dans l'objet _build_ :
-```js
+```json
 "build": {
   ...
     "scripts": [
