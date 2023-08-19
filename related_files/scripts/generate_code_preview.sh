@@ -12,8 +12,8 @@ de=/home/Exercises/angular-e23/src/assets/code-preview/
 
 cp $so/module01.service.ts $de/module01/
 mv $de/module01/module01.service.ts $de/module01/typescript.txt
-cp $so/safe.pipe.ts $de/safe/
-mv $de/safe/safe.pipe.ts $de/safe/typescript.txt
+cp $so/transform01.pipe.ts $de/transform01/
+mv $de/transform01/transform01.pipe.ts $de/transform01/typescript.txt
 
 cp $so/liste-sommaire/liste-sommaire.component.html $de/liste-sommaire/
 mv $de/liste-sommaire/liste-sommaire.component.html $de/liste-sommaire/html.txt

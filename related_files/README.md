@@ -10,19 +10,17 @@ ng generate component liste-sommaire
 ng generate component liste-detaillee
 ng generate component fiche
 ng generate service module01
-ng generate pipe safe
+ng generate pipe transform01
 ```
 
 ## Ajout d'un fichier JavaScript externe à l'application
-
 Pour ajouter un fichier JavaScript externe à l'application, il faut spécifier le chemin du fichier externe dans le fichier **angular.json**, dans l'objet _build_ :
 ```json
-"build": {
-  ...
+{
+  "build": {
     "scripts": [
       "src/assets/js/custom.js"
     ]
-  ...
-  },
+  }
 }
 ```
