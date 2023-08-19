@@ -27,4 +27,5 @@ export class ListeDetailleeComponent {
   private getHTMLFile(document85: string) {
     return this.http34.get(document85, { responseType: 'text' });
   }
+
 }
