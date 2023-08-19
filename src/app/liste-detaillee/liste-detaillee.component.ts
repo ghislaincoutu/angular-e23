@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Module01Service, Data39 } from '../module01.service';
 
@@ -7,7 +7,7 @@ import { Module01Service, Data39 } from '../module01.service';
   templateUrl: './liste-detaillee.component.html',
   styleUrls: ['./liste-detaillee.component.scss']
 })
-export class ListeDetailleeComponent {
+export class ListeDetailleeComponent implements OnInit {
   dataList39!: Data39[];
 
   constructor(
@@ -27,4 +27,5 @@ export class ListeDetailleeComponent {
   private getHTMLFile(document85: string) {
     return this.http34.get(document85, { responseType: 'text' });
   }
+
 }
