@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Module01Service, Data39 } from '../module01.service';
 
@@ -7,7 +7,7 @@ import { Module01Service, Data39 } from '../module01.service';
   templateUrl: './liste-detaillee.component.html',
   styleUrls: ['./liste-detaillee.component.scss']
 })
-export class ListeDetailleeComponent implements OnInit {
+export class ListeDetailleeComponent {
   dataList39!: Data39[];
 
   constructor(
