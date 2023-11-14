@@ -73,10 +73,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "angular-e23:build:production"
+              "buildTarget": "angular-e23:build:production"
             },
             "development": {
-              "browserTarget": "angular-e23:build:development"
+              "buildTarget": "angular-e23:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -84,7 +84,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "angular-e23:build"
+            "buildTarget": "angular-e23:build"
           }
         },
         "test": {
