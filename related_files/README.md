@@ -4,7 +4,7 @@
 Les fichiers se rapportant à l'application qui doivent être installés sur le serveur Web se trouvent dans le sous-répertoire `/releated_files/publication`.
 
 ## Démonstration
-https://ghislaincoutu.ca/r002/angular-e23
+https://ghislaincoutu.ca/d002/angular-e23
 
 ## Commandes Angular à exécuter pour générer les composants de l'application
 ```sh
