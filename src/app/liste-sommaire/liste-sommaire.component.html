@@ -1,0 +1,19 @@
+<div class="description">
+  <h2>Vue liste sommaire</h2>
+  <p>Affichage des fiches grammaticales, vue sommaire</p>
+</div>
+
+<ul *ngIf="dataList39" class="list01">
+  <li *ngFor="let x of dataList39">
+    <span>{{ x.id }}</span> &ndash; <a href="fiche?id={{ x.id }}"> {{ x.title }}</a>
+  </li>
+</ul>
+
+<div class="description spacet01">
+  <h3>liste-sommaire.component.html</h3>
+  <iframe src="assets/code-preview/liste-sommaire/html.txt"></iframe>
+  <h3>liste-sommaire.component.ts</h3>
+  <iframe src="assets/code-preview/liste-sommaire/typescript.txt"></iframe>
+  <h3>module01.service.ts</h3>
+  <iframe src="assets/code-preview/module01/typescript.txt"></iframe>
+</div>
