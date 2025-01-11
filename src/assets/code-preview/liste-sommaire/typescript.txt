@@ -5,7 +5,8 @@ import { Module01Service, Data39 } from '../module01.service';
 @Component({
   selector: 'app-liste-sommaire',
   templateUrl: './liste-sommaire.component.html',
-  styleUrls: ['./liste-sommaire.component.scss']
+  styleUrls: ['./liste-sommaire.component.scss'],
+  standalone: false
 })
 export class ListeSommaireComponent {
   dataList39!: Data39[];

@@ -5,7 +5,8 @@ import { Module01Service, Data39 } from '../module01.service';
 @Component({
   selector: 'app-liste-detaillee',
   templateUrl: './liste-detaillee.component.html',
-  styleUrls: ['./liste-detaillee.component.scss']
+  styleUrls: ['./liste-detaillee.component.scss'],
+  standalone: false
 })
 export class ListeDetailleeComponent {
   dataList39!: Data39[];
