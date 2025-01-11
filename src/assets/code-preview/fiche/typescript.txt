@@ -7,7 +7,8 @@ import { environment } from './../../environments/environment';
 @Component({
   selector: 'app-fiche',
   templateUrl: './fiche.component.html',
-  styleUrls: ['./fiche.component.scss']
+  styleUrls: ['./fiche.component.scss'],
+  standalone: false
 })
 export class FicheComponent {
   envTitle = environment.envTitle;
