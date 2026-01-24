@@ -3,11 +3,15 @@
   <p>Affichage des fiches grammaticales, vue sommaire</p>
 </div>
 
-<ul *ngIf="dataList39" class="list01">
-  <li *ngFor="let x of dataList39">
-    <span>{{ x.id }}</span> &ndash; <a href="fiche?id={{ x.id }}"> {{ x.title }}</a>
-  </li>
-</ul>
+@if (dataList39) {
+  <ul class="list01">
+    @for (x of dataList39; track x) {
+      <li>
+        <span>{{ x.id }}</span> &ndash; <a href="fiche?id={{ x.id }}"> {{ x.title }}</a>
+      </li>
+    }
+  </ul>
+}
 
 <div class="description spacet01">
   <h3>liste-sommaire.component.html</h3>
