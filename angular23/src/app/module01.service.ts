@@ -19,7 +19,7 @@ export interface Data39 {
 
 const envURL = environment.envURL;
 let path39: string;
-path39 = envURL + "/angular23/fiches/";
+path39 = envURL + "/angular-e23/fiches/";
 
 const data39: Data39[] = [
   {

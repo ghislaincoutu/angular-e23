@@ -28,7 +28,7 @@ export class FicheComponent {
     this.route38.queryParams.subscribe(response01 => {
       this.id38 = response01['id'];
     });
-    this.http38.get(this.envURL + "/angular23/fiches/" + this.id38 + "/include.html", { responseType: 'text' }).subscribe(response02 => {
+    this.http38.get(this.envURL + "/angular-e23/fiches/" + this.id38 + "/include.html", { responseType: 'text' }).subscribe(response02 => {
       this.htmlString38 = response02;
       this.htmlFile38 = this.sanitizer38.bypassSecurityTrustHtml(this.htmlString38);
     });
