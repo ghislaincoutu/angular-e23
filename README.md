@@ -1,4 +1,5 @@
 # angular-e23 &mdash; Test de programmation de fiches grammaticales
+<img src="related-files/medias/angular-e23.png" alt="Aperçu de l’interface" style="max-width:1000px;">
 
 Les fichiers se rapportant à l'application qui doivent être installés sur le serveur Web se trouvent dans le sous-répertoire `/releated_files/publication`.
 
